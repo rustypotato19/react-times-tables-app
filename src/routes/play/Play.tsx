@@ -216,7 +216,7 @@ export default function Play({ TTs, onBack, questionCount }: Props) {
   const answerInput = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (!answered && !finished) {
+    if (!answered && !finished && window.innerWidth >= 768) {
       answerInput.current?.focus();
     }
   }, [questionNumber, answered, finished]);
