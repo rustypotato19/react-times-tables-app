@@ -98,8 +98,8 @@ export default function App() {
                 <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center justify-center p-4 font-sans">
                   <div className="mb-8 text-center">
                     <h1 className="text-4xl md:text-5xl font-black tracking-tight text-pink-500">
-                      Marcelina's
-                      <span className="text-purple-500"> Super Special</span>
+                      Rusty's
+                      <span className="text-purple-500"> Super Fun</span>
                       <br />
                       <span className="text-white font-outline-1">
                         Times Table Practice
