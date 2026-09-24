@@ -1,5 +1,4 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
@@ -202,6 +201,10 @@ export default function Play({ TTs, onBack, questionCount }: Props) {
         const next = previous + 1;
 
         setBestStreak((best) => Math.max(best, next));
+
+        console.log(
+          `See here's the thing, I don't know if it will be, but the straek varaible is currently not used. So here you go, a useless logging of the streak variable: ${streak}`,
+        );
 
         return next;
       });
